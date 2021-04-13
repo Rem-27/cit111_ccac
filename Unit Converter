@@ -1,0 +1,71 @@
+/**
+ *
+ * @author Rashelle
+ */
+package week8;
+import java.util.Scanner;
+
+ public class MiniProject {
+    
+     public static void main(String[] args) {
+         for(;;) {
+         
+         System.out.println("********************");
+         System.out.println("  Unit Converter  ");
+         System.out.println("********************");
+         double inches, feet, yards;
+        
+         Scanner userInput = new Scanner(System.in);
+         Scanner scanner = new Scanner(System.in);
+   
+
+             System.out.println("Enter Number Designated to the Conversion Desired");
+             System.out.println("1. Inches to Feet");
+             System.out.println("2. Feet to Yards");
+             System.out.println("3. Yards to Miles");
+             int relevent = 0;
+             relevent = userInput.nextInt();
+             
+             {
+                 if (relevent==1) {
+                     System.out.println("how many inches?");
+                     //user enters num of inches to get feet
+                     inches = userInput.nextDouble();
+                     System.out.println(inches + " inches is " 
+                     + inchesToFeet(inches) + " in feet.");
+                     
+                 }
+                 if (relevent==2){
+                     System.out.println("how many feet?");
+                     //user enters num of feet to get yards
+                     feet = userInput.nextDouble();
+                     System.out.println(feet + " feet is " 
+                     + feetToYards(feet) + " yard(s).");
+                     
+                 }
+                 if (relevent==3){
+                     System.out.println("how many yards?");
+                     //user enters num of yards to get miles
+                     yards = userInput.nextDouble();
+                     System.out.println(yards + " yards is " 
+                     + yardsToMiles(yards) + " mile(s).");
+                 }
+             }
+         }
+     }
+     public static double inchesToFeet(double inches){
+         double feet = (1.0 / 12) * inches;
+         return feet;
+         //12 inches=1 foot
+     }
+     public static double feetToYards(double feet){
+         double yards = (1.0 / 3) * feet;
+         return yards;
+         //3 feet=1 yard
+     }
+     public static double yardsToMiles(double yards){
+         double miles = (1.0 / 1760) * yards;
+         return miles;
+         // 1760 yards = 1 mile
+     }
+ }
