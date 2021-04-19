@@ -1,0 +1,266 @@
+package week10;
+
+/**
+ *
+ * @author Rashelle
+ */
+import java.util.Scanner;
+
+public class FundamentalProject {
+    public static void main(String[] args) {
+        for (;;) {
+        Scanner inputScanner = new Scanner(System.in);
+        int userResponse = 1;
+        
+        System.out.println("Hello");
+        System.out.println("Welcome to randomized things about your zodiac sign");
+        System.out.println("What is your zodiac sign?");
+        System.out.println("1. ARIES: March 21- April 20");
+        System.out.println("2. TAURUS: April 21- May 20");
+        System.out.println("3. GEMINI: May 21- June 20");
+        System.out.println("4. CANCER: June 21- July 22");
+        System.out.println("5. LEO: July 23- August 22");
+        System.out.println("6. VIRGO: August 23- September 22");
+        System.out.println("7. LIBRA: September 23- October 22");
+        System.out.println("8. SCORPIO: October 23- November 22");
+        System.out.println("9. SAGITTARIUS: November 23- December 21");
+        System.out.println("10. CAPRICORN: December 22- January 19");
+        System.out.println("11. AQUARIUS: January 20- February 19");
+        System.out.println("12. PISCES: February 20- March 20");
+        
+        
+        inputScanner = new Scanner(System.in);
+        userResponse = inputScanner.nextInt();
+        
+          if (userResponse == 1){
+              System.out.println("The zodiac sign ARIES");
+              System.out.println("Symbol: RAM");
+              System.out.println("Element: FIRE");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs ARIES is the most compatible with?");
+              System.out.println("2. Type of person?");
+              //more questions for user
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Gemini, Leo, Sagittarius, and Aquarius");
+              }
+              if (userResponse ==2){
+                  System.out.println("Passionate, motivated, and a confident leader. ");
+                  System.out.println("Uncomplicated and direct but can become frustrated"
+                          + " when given the opposite treatment");
+              }
+          }
+          if (userResponse == 2){
+              System.out.println("The zodiac sign TAURUS");
+              System.out.println("Symbol: BULL");
+              System.out.println("Element: EARTH");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs TAURUS is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Cancer, Virgo, Capricorn, and Pisces");
+              }
+              if (userResponse ==2){
+                  System.out.println("Layed back and relexed");
+                  System.out.println("Govern by the planet Venus of love, beuty, and money.");
+              }
+          }
+          if (userResponse == 3){
+              System.out.println("The zodiac sign GEMINI");
+              System.out.println("Symbol: TWIN");
+              System.out.println("Element: AIR");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs GEMINI is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Aries, Leo, Libra, and Aquarius");
+              }
+              if (userResponse ==2){
+                  System.out.println("Playful and Intellectually curious");
+                  System.out.println("The social butterfly of the zodiac signs");
+              }
+          }
+          if (userResponse == 4){
+              System.out.println("The zodiac sign CANCER");
+              System.out.println("Symbol: CRAB");
+              System.out.println("Element: WATER");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs CANCER is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Taurus, Virgo, Scorpio, and Pisces");
+              }
+              if (userResponse ==2){
+                  System.out.println("Loyal, protective, intuitive, and caring");
+                  System.out.println("Can be overly sensitive, moody, and vindictive");
+              }
+          }
+          if (userResponse == 5){
+              System.out.println("The zodiac sign LEO");
+              System.out.println("Symbol: LION ");
+              System.out.println("Element: FIRE");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs LEO is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Aquarius and Sagittarius");
+              }
+              if (userResponse ==2){
+                  System.out.println("Vivacious, theatrical, and passionate");
+                  System.out.println("love the spotlight and celebrate themselves");
+              }
+          }
+          if (userResponse == 6){
+              System.out.println("The zodiac sign VIRGO");
+              System.out.println("Symbol: MAIDEN");
+              System.out.println("Element: EARTH");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs VIRGO is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Taurus, Cancer, Virgo, Scorpio, and Capricorn");
+              }
+              if (userResponse ==2){
+                  System.out.println("logical, practical, and systematic ");
+                  System.out.println("rely on structure and order.");
+              }
+          }
+          if (userResponse == 7){
+              System.out.println("The zodiac sign LIBRA");
+              System.out.println("Symbol: SCALES");
+              System.out.println("Element: AIR");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs LIBRA is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Gemini, Leo, Sagittarius and Aquarius");
+              }
+              if (userResponse ==2){
+                  System.out.println("charming, beautiful, and well-balanced");
+                  System.out.println("equally as self-indulgent as they are generous");
+              }
+          }
+          if (userResponse == 8){
+              System.out.println("The zodiac sign SCORPIO");
+              System.out.println("Symbol: SCORPION");
+              System.out.println("Element: WATER");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs SCORPIO is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Pisces or another Scorpio");
+              }
+              if (userResponse ==2){
+                  System.out.println("Passionate, independent, and unafraid");
+                  System.out.println("Often mistaken for a fire sign because of their fierce independence");
+              }
+          }
+          if (userResponse == 9){
+              System.out.println("The zodiac sign SAGITTARIUS");
+              System.out.println("Symbol: ARCHER");
+              System.out.println("Element: FIRE");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs SAGITTARIUS is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("another Sagittarius, Aries for Sagittarian men");
+              }
+              if (userResponse ==2){
+                  System.out.println("loyal, sophisticated, independent, and kind");
+                  System.out.println("unique, artistic, and have unerring judgment");
+              }
+          }
+          if (userResponse == 10){
+              System.out.println("The zodiac sign CAPRICORN");
+              System.out.println("Symbol: SEA GOAT");
+              System.out.println("Element: EARTH");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs CAPRICORN is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("another Capricorn or a Taurus");
+              }
+              if (userResponse ==2){
+                  System.out.println("pragmatic, ambitious, and disciplined ");
+                  System.out.println("set high standards for themselves and value loyalty and hard work");
+              }
+          }
+          if (userResponse == 11){
+              System.out.println("The zodiac sign AQUARIUS");
+              System.out.println("Symbol: WATER-BEARER");
+              System.out.println("Element: AIR");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What signs AQUARIUS is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Aries, Gemini, Libra and Sagittarius");
+              }
+              if (userResponse ==2){
+                  System.out.println("The most humanitarian astrological sign");
+                  System.out.println("Eccentric and energetic, and deep thinkers");
+              }
+          }
+          if (userResponse == 12){
+              System.out.println("The zodiac sign PISCES");
+              System.out.println("Symbol: FISH");
+              System.out.println("Element: WATER");
+              System.out.println("What would you like to know?");
+              System.out.println("1. What sign PISCES is the most compatible with?");
+              System.out.println("2. Type of person?");
+              
+              inputScanner = new Scanner(System.in);
+              userResponse = inputScanner.nextInt();
+              //answers
+              if (userResponse == 1){
+                  System.out.println("Taurus, Cancer, Scorpio and Capricorn");
+              }
+              if (userResponse ==2){
+                  System.out.println("creative, empathetic, and generous ");
+                  System.out.println("they can also be overly emotional, impressionable, and closed off");
+              }
+          } 
+    }  
+    }
+}
