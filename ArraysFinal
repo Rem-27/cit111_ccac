@@ -1,0 +1,71 @@
+package arrays;
+
+/**
+ *
+ * @author Rashelle
+ */
+ 
+public class ArraysFinal {
+    
+    public static void main(String[] args) throws InterruptedException {
+        
+        Song firstSong = new Song();
+        firstSong.setMusicGenre("Latin Trap");
+        firstSong.setArtistName("Bad Bunny");
+        firstSong.setSongName("La Romana");
+        firstSong.setSongLength(5.00);
+        
+        ///////////////////////////////////////////////
+        Song secondSong = new Song();
+        secondSong.setMusicGenre("Bachata");
+        secondSong.setArtistName("Romeo Santos");
+        secondSong.setSongName ("Propuesta Indecente");
+        secondSong.setSongLength(3.55);
+        
+        //////////////////////////////////////////////
+        Song thirdSong = new Song();
+        thirdSong.setMusicGenre("Latin Pop Rock");
+        thirdSong.setArtistName("Hombres G");
+        thirdSong.setSongName("Devuelveme s mi chics");
+        thirdSong.setSongLength(3.14);
+        
+        /////////////////////////////////////////////////
+        Song fourthSong = new Song();
+        fourthSong.setMusicGenre("Latin Hip-Hop");
+        fourthSong.setArtistName("Aventura");
+        fourthSong.setSongName("Ella y Yo");
+        fourthSong.setSongLength(4.27);
+        
+        ////////////////////////////////////////////////////
+        Song fifthSong = new Song();
+        fifthSong.setMusicGenre("Latin Reggaeton/ Urban");
+        fifthSong.setArtistName("Don Omar and Tego Calderon");
+        fifthSong.setSongNmae("Bandoleros");
+        fifthSong.setSongLength(5.05);
+        
+        /////////////////////////////////////////////////////
+        
+        Song[] Song = new Song[5];
+        
+        Song[0] = firstSong;
+        Song[1] = secondSong;
+        Song[2] = thirdSong;
+        Song[3] = fourthSong;
+        Song[4] = fifthSong;
+        
+        for(int i = 0; i <= 4; i += 1){
+            Song accessedSong = Song[i];
+            System.out.println("Getting song info...");
+            Thread.sleep(500);
+            System.out.println("Artist Name: " + accessedSong.getArtistName());
+            Thread.sleep(500);
+            System.out.println("Song Gene: " + accessedSong.getMusicGenre());
+            Thread.sleep(500);
+            System.out.println("Song Name: " + accessedSong.getSongName());
+            Thread.sleep(500);
+            System.out.println("Song Length: " + accessedSong.getSongLength());
+            Thread.sleep(500);
+        }
+        
+    }
+ }
