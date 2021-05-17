@@ -1,0 +1,39 @@
+package finals;
+
+/**
+ *
+ * @author Rashelle
+ */
+public class ArraysFinal {
+    public static void main(String[] args) {
+        
+        Music firstSong = new Music ();
+        firstSong.Genre = "genre";
+        firstSong.Artist = "artist name";
+        firstSong.Song = "song name";
+        firstSong.Length = song legnth;
+        
+        System.out.println("Song 1");
+        System.out.println("Song Genre; " + firstSong.Genre);
+        System.out.println("Artist Name: " + firstSong.Artist);
+        System.out.println("Song Name: " + firstSong.Song);
+        System.out.println("Song Length: " + firstSong.Length);
+        System.out.println("+++++++++++++++");
+        ///////////////////////////////////////////////////////////
+        
+        
+            
+        
+    }
+
+    private static class Music {
+
+        private String Genre;
+        private String Artist;
+        private String Song;
+        private double Length;
+
+        public Music() {
+        }
+    }
+}
