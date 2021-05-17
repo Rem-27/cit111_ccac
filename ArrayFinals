@@ -1,0 +1,95 @@
+
+package finals;
+
+/**
+ *
+ * @author Rashelle
+ */
+public class ArraysFinal {
+    public static void main(String[] args) {
+        
+        Music firstSong = new Music ();
+        firstSong.Genre = "Latin Trap";
+        firstSong.Artist = "Bad Bunny";
+        firstSong.Song = "La Romana";
+        firstSong.Length = 5.00;
+        
+        System.out.println("Song 1");
+        System.out.println("Song Genre; " + firstSong.Genre);
+        System.out.println("Artist Name: " + firstSong.Artist);
+        System.out.println("Song Name: " + firstSong.Song);
+        System.out.println("Song Length: " + firstSong.Length);
+        System.out.println("+++++++++++++++");
+        ///////////////////////////////////////////////////////////
+        
+        Music secondSong = new Music();
+        secondSong.Genre = "Bachata";
+        secondSong.Artist = "Romeo Santos";
+        secondSong.Song = "Propuesta Indecente";
+        secondSong.Length = 3.55;
+        
+        System.out.println("Song 2");
+        System.out.println("Song Genre; " + secondSong.Genre);
+        System.out.println("Artist Name: " + secondSong.Artist);
+        System.out.println("Song Name: " + secondSong.Song);
+        System.out.println("Song Length: " + secondSong.Length);
+        System.out.println("++++++++++++++++");
+        ////////////////////////////////////////////////////////
+        
+        Music thirdSong = new Music();
+        thirdSong.Genre = "Latin Pop Rock";
+        thirdSong.Artist = "Hombres G";
+        thirdSong.Song = "Devuelveme s mi chics";
+        thirdSong.Length = 3.14;
+        
+        System.out.println("Song 3");
+        System.out.println("Song Genre; " + thirdSong.Genre);
+        System.out.println("Artist Name: " + thirdSong.Artist);
+        System.out.println("Song Name: " + thirdSong.Song);
+        System.out.println("Song Length: " + thirdSong.Length);
+        System.out.println("++++++++++++++++");
+        ////////////////////////////////////////////////////////
+        
+        Music fourthSong = new Music();
+        fourthSong.Genre = ("Latin Hip-Hop");
+        fourthSong.Artist = ("Aventura");
+        fourthSong.Song = "Ella y Yo";
+        fourthSong.Length = 4.27;
+        
+        System.out.println("Song 4");
+        System.out.println("Song Genre; " + fourthSong.Genre);
+        System.out.println("Artist Name: " + fourthSong.Artist);
+        System.out.println("Song Name: " + fourthSong.Song);
+        System.out.println("Song Length: " + fourthSong.Length);
+        System.out.println("++++++++++++++++");
+        /////////////////////////////////////////////////////////
+        
+        Music fifthSong = new Music();
+        fifthSong.Genre = "Latin Reggaeton/ Urban";
+        fifthSong.Artist = "Don Omar and Tego Calderon";
+        fifthSong.Song = "Bandoleros";
+        fifthSong.Length = 5.05;
+        
+        System.out.println("Song 5");
+        System.out.println("Song Genre; " + fifthSong.Genre);
+        System.out.println("Artist Name: " + fifthSong.Artist);
+        System.out.println("Song Name: " + fifthSong.Song);
+        System.out.println("Song Length: " + fifthSong.Length);
+        System.out.println("++++++++++++++++");
+        //////////////////////////////////////////////////////////////
+        
+            
+        
+    }
+
+    private static class Music {
+
+        private String Genre;
+        private String Artist;
+        private String Song;
+        private double Length;
+
+        public Music() {
+        }
+    }
+}
